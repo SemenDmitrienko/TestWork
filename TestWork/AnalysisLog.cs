@@ -1,6 +1,6 @@
 ﻿namespace TestWork
 {
-    public class AnalysisLog
+    public class AnalysisLog : IAnalysisLog
     {
         public ICheckPatternString CheckPatternString { get; }
         public IGetDataFromString GetDataFromString { get; }

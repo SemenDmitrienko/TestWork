@@ -23,7 +23,7 @@ namespace TestWork.Test
         [Fact]
         public void Check_Pattern()
         {
-            CheckPatternString checkPattern = new CheckPatternString(@"pattern\d");
+            ICheckPatternString checkPattern = new CheckPatternString(@"pattern\d");
             string line = "pattern2 pattern1 pattern2";
 
             Assert.True(checkPattern.CheckPattern(line));

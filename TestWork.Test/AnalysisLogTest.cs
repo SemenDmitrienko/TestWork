@@ -12,7 +12,7 @@ namespace TestWork.Test
         [Fact]
         public void Check_Analysis_Log()
         {
-            AnalysisLog analysisLog = new AnalysisLog();
+            IAnalysisLog analysisLog = new AnalysisLog();
             string line = "2017-05-23 12:19:17.3278|Info||Handle|Request for 37035_120_1_Ge.tImages";
             string result = "2017-05-23, 12:19:17.3278, 37035, 120, 1, Ge.tImages";
 

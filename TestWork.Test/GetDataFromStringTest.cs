@@ -28,7 +28,7 @@ namespace TestWork.Test
         [Fact]
         public void Check_First_Get_Data()
         {
-            RegexGetFirstData getData = new RegexGetFirstData(null, @"pattern\d", ":");
+            IGetDataFromString getData = new RegexGetFirstData(null, @"pattern\d", ":");
             string line = "pattern2 pattern1 pattern2";
             
             Assert.Equal("pattern2", getData.GetData(line).ToString());
@@ -37,8 +37,8 @@ namespace TestWork.Test
         [Fact]
         public void Check_First_Null_Second_Get_Data()
         {
-            RegexGetFirstData getDataFirst = new RegexGetFirstData(null, null, null);
-            RegexGetFirstData getDataSecond = new RegexGetFirstData(getDataFirst, @"pattern\d", ":");
+            IGetDataFromString getDataFirst = new RegexGetFirstData(null, null, null);
+            IGetDataFromString getDataSecond = new RegexGetFirstData(getDataFirst, @"pattern\d", ":");
             string line = "pattern2 pattern1 pattern2";
 
             Assert.Equal(":pattern2", getDataSecond.GetData(line).ToString());
@@ -47,9 +47,9 @@ namespace TestWork.Test
         [Fact]
         public void Check_First_Not_Null_Second_Get_Data()
         {
-            RegexGetFirstData stub = new RegexGetFirstData(null, null, null);
-            RegexGetFirstData getDataFirst = new RegexGetFirstData(stub, @"pattern\d", ",");
-            RegexGetFirstData getDataSecond = new RegexGetFirstData(getDataFirst, @"pattern\d", ": ");
+            IGetDataFromString stub = new RegexGetFirstData(null, null, null);
+            IGetDataFromString getDataFirst = new RegexGetFirstData(stub, @"pattern\d", ",");
+            IGetDataFromString getDataSecond = new RegexGetFirstData(getDataFirst, @"pattern\d", ": ");
             string line = "pattern2 pattern1 pattern2";
 
             Assert.Equal(",pattern2: pattern2", getDataSecond.GetData(line).ToString());
@@ -58,8 +58,8 @@ namespace TestWork.Test
         [Fact]
         public void Check_Second_Get_Data()
         {
-            RegexGetFirstData getDataFirst = new RegexGetFirstData(null, @"pattern\d", ", ");
-            RegexGetFirstData getDataSecond = new RegexGetFirstData(getDataFirst, @"pattern\d", ": ");
+            IGetDataFromString getDataFirst = new RegexGetFirstData(null, @"pattern\d", ", ");
+            IGetDataFromString getDataSecond = new RegexGetFirstData(getDataFirst, @"pattern\d", ": ");
             string line = "pattern2 pattern1 pattern2";
 
             Assert.Equal("pattern2: pattern2", getDataSecond.GetData(line).ToString());
@@ -68,8 +68,8 @@ namespace TestWork.Test
         [Fact]
         public void Check_Second_Get_Data_No_Match()
         {
-            RegexGetFirstData getDataFirst = new RegexGetFirstData(null, @"Z\d", ", ");
-            RegexGetFirstData getDataSecond = new RegexGetFirstData(getDataFirst, @"Z\d", ", ");
+            IGetDataFromString getDataFirst = new RegexGetFirstData(null, @"Z\d", ", ");
+            IGetDataFromString getDataSecond = new RegexGetFirstData(getDataFirst, @"Z\d", ", ");
             string line = "pattern2 pattern1 pattern2";
 
             Assert.Equal(", ", getDataSecond.GetData(line).ToString());

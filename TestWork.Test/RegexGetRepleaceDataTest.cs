@@ -10,7 +10,7 @@ namespace TestWork.Test
         [InlineData("", "2017-06-24 12:19:17.3278 2017-06-23 |Info||Handle| 37035_120_1_Ge.tImages Request for ")]
         public void Check_First_Get_Data(string result, string line)
         {
-            RegexGetRepleaceData getDate = new RegexGetRepleaceData(getDataFromString: null, separator: ", ");
+            IGetDataFromString getDate = new RegexGetRepleaceData(getDataFromString: null, separator: ", ");
 
             Assert.Equal(result, getDate.GetData(line).ToString());
         }

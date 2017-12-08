@@ -7,9 +7,9 @@ namespace TestWork
     {
         string readPath;
         string writePath;
-        AnalysisLog analysisLog;
+        IAnalysisLog analysisLog;
 
-        public HandlerLog(string readPath, string writePath, AnalysisLog analysisLog)
+        public HandlerLog(string readPath, string writePath, IAnalysisLog analysisLog)
         {
             this.readPath = readPath;
             this.writePath = writePath;
