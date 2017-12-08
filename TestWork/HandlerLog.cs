@@ -20,22 +20,20 @@ namespace TestWork
         {
             using (StreamReader sr = new StreamReader(readPath, Encoding.Default))
             {
-                string line;
-                while ((line = sr.ReadLine()) != null)
+                // Очищаем файл если уже был создан
+                File.WriteAllText(writePath, string.Empty);
+
+                using (StreamWriter sw = new StreamWriter(writePath, true, Encoding.Default))
                 {
-                    if(analysisLog.CheckPatternString.CheckPattern(line))
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
                     {
-                        WriteFile(analysisLog.GetDataFromString.GetData(line).ToString());
+                        if (analysisLog.CheckPatternString.CheckPattern(line))
+                        {
+                            sw.WriteLine(analysisLog.GetDataFromString.GetData(line).ToString());
+                        }
                     }
                 }
-            }
-        }
-
-        public void WriteFile(string textwrite)
-        {
-            using (StreamWriter sw = new StreamWriter(writePath, true, Encoding.Default))
-            {
-                sw.WriteLine(textwrite);
             }
         }
     }
