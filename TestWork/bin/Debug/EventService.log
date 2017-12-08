@@ -1,0 +1,1925 @@
+2017-05-23 12:19:13.8206|Info||Main|Starting P2P service
+2017-05-23 12:19:14.2456|Info||Info|Initializing RabbitMQ connection manager for transport with input queue 'ARNVGATEWAY9KM\Admin\RegularPeer'
+2017-05-23 12:19:14.6364|Info||Info|Creating new RabbitMQ connection
+2017-05-23 12:19:15.9392|Info||Info|Starting periodic task 'CleanupTrackedErrors' with interval 00:01:00
+2017-05-23 12:19:16.1240|Info||Info|Starting periodic task 'DueMessagesSender' with interval 00:00:01
+2017-05-23 12:19:16.1280|Info||Info|Starting bus 1
+2017-05-23 12:19:16.1280|Info||Info|Setting number of workers to 1
+2017-05-23 12:19:16.1280|Info||Info|Started
+2017-05-23 12:19:16.4169|Info||Info|Successfully initialized consumer for ARNVGATEWAY9KM\Admin\RegularPeer
+2017-05-23 12:19:16.9868|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:17.0008|Info||Handle|Null train received
+2017-05-23 12:19:17.0008|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:17.0008|Info||Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 12:19:17.0258|Info||Handle|Null train received
+2017-05-23 12:19:17.0258|Info||Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 12:19:17.0468|Info||Handle|Null train received
+2017-05-23 12:19:17.0468|Info||Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 12:19:17.0468|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:17.0628|Info||Handle|Null train received
+2017-05-23 12:19:17.0628|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:17.0628|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:17.0778|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:17.0778|Info||Handle|Null train received
+2017-05-23 12:19:17.0778|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:17.0938|Info||Handle|TrainTypes SpecialTrain not match ASUST requirements.
+2017-05-23 12:19:17.0938|Info||Handle|Null train received
+2017-05-23 12:19:17.0938|Info||Handle|TrainTypes SpecialTrain not match ASUST requirements.
+2017-05-23 12:19:17.1368|Info||Handle|Null train received
+2017-05-23 12:19:17.1558|Info||Handle|TrainTypes SpecialTrain not match ASUST requirements.
+2017-05-23 12:19:17.1878|Info||Handle|Null train received
+2017-05-23 12:19:17.2748|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:17.2998|Info||Handle|Null train received
+2017-05-23 12:19:17.3278|Info||Handle|Request for 37035_120_1_GetImages
+2017-05-23 12:19:17.3848|Warn||Warn|Unhandled exception 1 while handling message with ID e4c03ec5-713f-4399-b883-39f1cef63f4c: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 12:19:17.6488|Info||AddNodeEntry|	 Добавляем net.tcp://10.52.55.199:4000/P2PService в список участников сети. Размер сети = 1 .
+2017-05-23 12:19:17.9678|Info||Handle|Null train received
+2017-05-23 12:19:17.9848|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.0248|Info||Handle|Null train received
+2017-05-23 12:19:18.0468|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.0707|Info||Handle|TrainTypes SpecialTrain not match ASUST requirements.
+2017-05-23 12:19:18.1017|Info||Handle|Null train received
+2017-05-23 12:19:18.1247|Info||Handle|TrainTypes SpecialTrain not match ASUST requirements.
+2017-05-23 12:19:18.1537|Info||Handle|Null train received
+2017-05-23 12:19:18.1677|Info||Handle|TrainTypes SpecialTrain not match ASUST requirements.
+2017-05-23 12:19:18.1917|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.2147|Info||Handle|Null train received
+2017-05-23 12:19:18.2377|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.2597|Info||Handle|TrainTypes Passenger not match ASUST requirements.
+2017-05-23 12:19:18.2867|Info||Handle|Null train received
+2017-05-23 12:19:18.3067|Info||Handle|TrainTypes Passenger not match ASUST requirements.
+2017-05-23 12:19:18.3890|Info||Handle|Null train received
+2017-05-23 12:19:18.4010|Info||Handle|TrainTypes Passenger not match ASUST requirements.
+2017-05-23 12:19:18.4220|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.4480|Info||Handle|Null train received
+2017-05-23 12:19:18.4670|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.4940|Info||Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 12:19:18.5220|Info||Handle|Null train received
+2017-05-23 12:19:18.6060|Info||Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 12:19:18.6410|Info||Handle|Null train received
+2017-05-23 12:19:18.6600|Info||Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 12:19:18.6860|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.7140|Info||Handle|Null train received
+2017-05-23 12:19:18.7340|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.7530|Info||Handle|TrainTypes SpecialTrain not match ASUST requirements.
+2017-05-23 12:19:18.7820|Info||Handle|Null train received
+2017-05-23 12:19:18.8050|Info||Handle|TrainTypes SpecialTrain not match ASUST requirements.
+2017-05-23 12:19:18.8360|Info||Handle|Null train received
+2017-05-23 12:19:18.8470|Info||Handle|TrainTypes SpecialTrain not match ASUST requirements.
+2017-05-23 12:19:18.8730|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.8930|Info||Handle|Null train received
+2017-05-23 12:19:18.9090|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.9330|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:18.9590|Info||Handle|Null train received
+2017-05-23 12:19:18.9760|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:19:19.0160|Info||Handle|Null train received
+2017-05-23 12:19:19.0400|Info||Handle|Request for 37041_42_1_GetImages
+2017-05-23 12:19:24.1630|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:19:24.5678|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:19:24.5678|Info||Deploy|P2P Service deployed 
+2017-05-23 12:19:48.1392|Info||Handle|Request for 37041_129_1_GetImages
+2017-05-23 12:20:11.2741|Info||Handle|Request for 37041_203_1_GetImages
+2017-05-23 12:20:14.0709|Info||CleanupExpiredData|Datacache:0 entries was removed as expired.
+2017-05-23 12:20:14.1379|Info||CacheCleanup|Database cleanup
+2017-05-23 12:20:17.6612|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:20:34.5622|Info||Handle|Request for 37041_263_1_GetImages
+2017-05-23 12:21:02.6094|Info||Handle|Request for 37041_310_1_GetImages
+2017-05-23 12:21:19.0101|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:21:25.7462|Info||Handle|Request for 37041_371_1_GetImages
+2017-05-23 12:21:50.4892|Info||Handle|Request for 37041_429_1_GetImages
+2017-05-23 12:22:16.2214|Info||Handle|Request for 37041_478_1_GetImages
+2017-05-23 12:22:17.6409|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:22:46.2980|Error||HasChunks|
+ex.Message:Во время операции запроса в net.tcp://10.52.55.199:4000/P2PService ответ не был получен в течение настроенного времени ожидания (00:00:30). Время, назначенное для выполнения этой операции, может быть составной частью более длинного тайм-аута.  Это может быть связано с тем, что служба продолжает обработать операцию, или с тем, что службе не удалось отправить ответное сообщение. Увеличьте значение тайм-аута операции (путем привода канал/прокси в IContextChannel и изменения свойства OperationTimeout), а также убедитесь, что служба способна подключиться к клиенту.
+ex.StackTrace:
+Server stack trace: 
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в RailOCR.Data.Common.DataTransfer.IDataTransferInner.HasChunks(DataToken dataToken)
+   в RailOCR.DataTransfer.RegularPeer.P2P.NodeEntry.HasChunks(DataToken dataToken) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:строка 38
+ex.InnerException:
+HandleReturnMessage at offset 153 in file:line:column <filename unknown>:0:0
+|0
+PrivateInvoke at offset 336 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 0 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 177 in file:line:column D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:38:17
+|38
+
+
+2017-05-23 12:22:46.4421|Info||Handle|Request for 37041_538_1_GetImages
+2017-05-23 12:23:13.0782|Info||Handle|Request for 37041_593_1_GetImages
+2017-05-23 12:23:17.7089|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:23:39.3786|Info||Handle|Request for 37041_656_1_GetImages
+2017-05-23 12:24:03.2322|Info||Handle|Request for 37041_713_1_GetImages
+2017-05-23 12:24:17.6803|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:24:29.0847|Info||Handle|Request for 37041_767_1_GetImages
+2017-05-23 12:24:59.1063|Error||HasChunks|
+ex.Message:Во время операции запроса в net.tcp://10.52.55.199:4000/P2PService ответ не был получен в течение настроенного времени ожидания (00:00:30). Время, назначенное для выполнения этой операции, может быть составной частью более длинного тайм-аута.  Это может быть связано с тем, что служба продолжает обработать операцию, или с тем, что службе не удалось отправить ответное сообщение. Увеличьте значение тайм-аута операции (путем привода канал/прокси в IContextChannel и изменения свойства OperationTimeout), а также убедитесь, что служба способна подключиться к клиенту.
+ex.StackTrace:
+Server stack trace: 
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в RailOCR.Data.Common.DataTransfer.IDataTransferInner.HasChunks(DataToken dataToken)
+   в RailOCR.DataTransfer.RegularPeer.P2P.NodeEntry.HasChunks(DataToken dataToken) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:строка 38
+ex.InnerException:
+HandleReturnMessage at offset 153 in file:line:column <filename unknown>:0:0
+|0
+PrivateInvoke at offset 336 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 0 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 177 in file:line:column D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:38:17
+|38
+
+
+2017-05-23 12:24:59.3283|Info||Handle|Request for 37041_824_1_GetImages
+2017-05-23 12:25:23.8024|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:25:23.8154|Info||Handle|Request for 37041_895_1_GetImages
+2017-05-23 12:25:48.2677|Info||Handle|Request for 37041_955_1_GetImages
+2017-05-23 12:26:12.1595|Info||Handle|Request for 37041_1015_1_GetImages
+2017-05-23 12:26:17.6365|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:26:37.7995|Info||Handle|Request for 37041_1081_1_GetImages
+2017-05-23 12:27:07.8295|Error||HasChunks|
+ex.Message:Во время операции запроса в net.tcp://10.52.55.199:4000/P2PService ответ не был получен в течение настроенного времени ожидания (00:00:30). Время, назначенное для выполнения этой операции, может быть составной частью более длинного тайм-аута.  Это может быть связано с тем, что служба продолжает обработать операцию, или с тем, что службе не удалось отправить ответное сообщение. Увеличьте значение тайм-аута операции (путем привода канал/прокси в IContextChannel и изменения свойства OperationTimeout), а также убедитесь, что служба способна подключиться к клиенту.
+ex.StackTrace:
+Server stack trace: 
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в RailOCR.Data.Common.DataTransfer.IDataTransferInner.HasChunks(DataToken dataToken)
+   в RailOCR.DataTransfer.RegularPeer.P2P.NodeEntry.HasChunks(DataToken dataToken) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:строка 38
+ex.InnerException:
+HandleReturnMessage at offset 153 in file:line:column <filename unknown>:0:0
+|0
+PrivateInvoke at offset 336 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 0 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 177 in file:line:column D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:38:17
+|38
+
+
+2017-05-23 12:27:08.0595|Info||Handle|Request for 37041_1141_1_GetImages
+2017-05-23 12:27:33.9891|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:27:34.2011|Info||Handle|Request for 37041_1212_1_GetImages
+2017-05-23 12:27:57.2858|Info||Handle|Request for 37041_1284_1_GetImages
+2017-05-23 12:28:17.6864|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:28:21.7686|Info||Handle|Request for 37041_1337_1_GetImages
+2017-05-23 12:28:47.4106|Info||Handle|Request for 37041_1398_1_GetImages
+2017-05-23 12:29:09.6771|Info||Handle|Request for 37041_1470_1_GetImages
+2017-05-23 12:29:32.2226|Info||Handle|Request for 37041_1527_1_GetImages
+2017-05-23 12:29:38.1739|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:30:00.2435|Info||Handle|Request for 37041_1592_1_GetImages
+2017-05-23 12:30:17.7032|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:30:22.9553|Info||Handle|Request for 37041_1675_1_GetImages
+2017-05-23 12:30:45.0473|Info||Handle|Request for 37041_1727_1_GetImages
+2017-05-23 12:31:09.8807|Info||Handle|Request for 37041_1789_1_GetImages
+2017-05-23 12:31:17.6950|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:31:36.8554|Info||Handle|Request for 37041_1857_1_GetImages
+2017-05-23 12:32:03.0147|Info||Handle|Request for 37041_1900_1_GetImages
+2017-05-23 12:32:19.7642|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:32:26.4731|Info||Handle|Request for 37041_1986_1_GetImages
+2017-05-23 12:32:52.8547|Info||Handle|Request for 37041_2059_1_GetImages
+2017-05-23 12:33:19.1214|Info||Handle|Request for 37041_2127_1_GetImages
+2017-05-23 12:33:19.9466|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:33:49.1716|Error||HasChunks|
+ex.Message:Во время операции запроса в net.tcp://10.52.55.199:4000/P2PService ответ не был получен в течение настроенного времени ожидания (00:00:30). Время, назначенное для выполнения этой операции, может быть составной частью более длинного тайм-аута.  Это может быть связано с тем, что служба продолжает обработать операцию, или с тем, что службе не удалось отправить ответное сообщение. Увеличьте значение тайм-аута операции (путем привода канал/прокси в IContextChannel и изменения свойства OperationTimeout), а также убедитесь, что служба способна подключиться к клиенту.
+ex.StackTrace:
+Server stack trace: 
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в RailOCR.Data.Common.DataTransfer.IDataTransferInner.HasChunks(DataToken dataToken)
+   в RailOCR.DataTransfer.RegularPeer.P2P.NodeEntry.HasChunks(DataToken dataToken) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:строка 38
+ex.InnerException:
+HandleReturnMessage at offset 153 in file:line:column <filename unknown>:0:0
+|0
+PrivateInvoke at offset 336 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 0 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 177 in file:line:column D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:38:17
+|38
+
+
+2017-05-23 12:33:49.4526|Info||Handle|Request for 37041_2190_1_GetImages
+2017-05-23 12:34:18.4674|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:34:18.8184|Info||Handle|Request for 37041_2233_1_GetImages
+2017-05-23 12:34:43.2279|Info||Handle|Request for 37041_2318_1_GetImages
+2017-05-23 12:35:08.1698|Info||Handle|Request for 37041_2383_1_GetImages
+2017-05-23 12:35:17.7238|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:35:35.0916|Info||Handle|Request for 37041_2443_1_GetImages
+2017-05-23 12:36:01.6835|Info||Handle|Request for 37041_2511_1_GetImages
+2017-05-23 12:36:20.9107|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:36:27.4475|Info||Handle|Request for 37041_2579_1_GetImages
+2017-05-23 12:36:56.4404|Info||Handle|Request for 37041_2647_1_GetImages
+2017-05-23 12:37:25.9625|Info||Handle|Request for 37041_2711_1_GetImages
+2017-05-23 12:37:34.5739|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:37:55.9953|Error||HasChunks|
+ex.Message:Во время операции запроса в net.tcp://10.52.55.199:4000/P2PService ответ не был получен в течение настроенного времени ожидания (00:00:30). Время, назначенное для выполнения этой операции, может быть составной частью более длинного тайм-аута.  Это может быть связано с тем, что служба продолжает обработать операцию, или с тем, что службе не удалось отправить ответное сообщение. Увеличьте значение тайм-аута операции (путем привода канал/прокси в IContextChannel и изменения свойства OperationTimeout), а также убедитесь, что служба способна подключиться к клиенту.
+ex.StackTrace:
+Server stack trace: 
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в RailOCR.Data.Common.DataTransfer.IDataTransferInner.HasChunks(DataToken dataToken)
+   в RailOCR.DataTransfer.RegularPeer.P2P.NodeEntry.HasChunks(DataToken dataToken) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:строка 38
+ex.InnerException:
+HandleReturnMessage at offset 153 in file:line:column <filename unknown>:0:0
+|0
+PrivateInvoke at offset 336 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 0 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 177 in file:line:column D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:38:17
+|38
+
+
+2017-05-23 12:37:56.3622|Info||Handle|Request for 37041_2748_1_GetImages
+2017-05-23 12:38:26.8357|Error||HasChunks|
+ex.Message:Во время операции запроса в net.tcp://10.52.55.199:4000/P2PService ответ не был получен в течение настроенного времени ожидания (00:00:30). Время, назначенное для выполнения этой операции, может быть составной частью более длинного тайм-аута.  Это может быть связано с тем, что служба продолжает обработать операцию, или с тем, что службе не удалось отправить ответное сообщение. Увеличьте значение тайм-аута операции (путем привода канал/прокси в IContextChannel и изменения свойства OperationTimeout), а также убедитесь, что служба способна подключиться к клиенту.
+ex.StackTrace:
+Server stack trace: 
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в RailOCR.Data.Common.DataTransfer.IDataTransferInner.HasChunks(DataToken dataToken)
+   в RailOCR.DataTransfer.RegularPeer.P2P.NodeEntry.HasChunks(DataToken dataToken) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:строка 38
+ex.InnerException:
+HandleReturnMessage at offset 153 in file:line:column <filename unknown>:0:0
+|0
+PrivateInvoke at offset 336 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 0 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 177 in file:line:column D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:38:17
+|38
+
+
+2017-05-23 12:38:27.1766|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:38:27.1766|Info||Handle|Request for 37041_2837_1_GetImages
+2017-05-23 12:38:54.3900|Info||Handle|Request for 37041_2911_1_GetImages
+2017-05-23 12:39:18.4188|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:39:18.6718|Info||Handle|Request for 37041_2970_1_GetImages
+2017-05-23 12:39:46.5909|Info||Handle|Request for 37041_3041_1_GetImages
+2017-05-23 12:40:13.1588|Info||Handle|Request for 37041_3104_1_GetImages
+2017-05-23 12:40:18.3054|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:40:40.0130|Info||Handle|Request for 37041_3172_1_GetImages
+2017-05-23 12:41:08.7477|Info||Handle|Request for 37041_3240_1_GetImages
+2017-05-23 12:41:31.1480|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:41:33.6869|Info||Handle|Request for 37041_3305_1_GetImages
+2017-05-23 12:42:00.1709|Info||Handle|Request for 37041_3378_1_GetImages
+2017-05-23 12:42:20.0723|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:42:29.7287|Info||Handle|Request for 37041_3441_1_GetImages
+2017-05-23 12:42:56.4015|Info||Handle|Request for 37041_3520_1_GetImages
+2017-05-23 12:43:17.7346|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:43:20.1922|Info||Handle|Request for 37041_3620_1_GetImages
+2017-05-23 12:43:50.2630|Error||HasChunks|
+ex.Message:Во время операции запроса в net.tcp://10.52.55.199:4000/P2PService ответ не был получен в течение настроенного времени ожидания (00:00:30). Время, назначенное для выполнения этой операции, может быть составной частью более длинного тайм-аута.  Это может быть связано с тем, что служба продолжает обработать операцию, или с тем, что службе не удалось отправить ответное сообщение. Увеличьте значение тайм-аута операции (путем привода канал/прокси в IContextChannel и изменения свойства OperationTimeout), а также убедитесь, что служба способна подключиться к клиенту.
+ex.StackTrace:
+Server stack trace: 
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в RailOCR.Data.Common.DataTransfer.IDataTransferInner.HasChunks(DataToken dataToken)
+   в RailOCR.DataTransfer.RegularPeer.P2P.NodeEntry.HasChunks(DataToken dataToken) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:строка 38
+ex.InnerException:
+HandleReturnMessage at offset 153 in file:line:column <filename unknown>:0:0
+|0
+PrivateInvoke at offset 336 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 0 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 177 in file:line:column D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:38:17
+|38
+
+
+2017-05-23 12:43:50.6360|Info||Handle|Null train received
+2017-05-23 12:43:50.6770|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:43:50.7460|Info||Handle|Null train received
+2017-05-23 12:43:50.8010|Info||Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 12:43:50.8480|Info||Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 12:43:50.9230|Info||Handle|Null train received
+2017-05-23 12:43:50.9440|Info||Handle|Request for 37035_120_1_GetImages
+2017-05-23 12:44:11.0192|Info||Handle|Request for 37035_328_1_GetImages
+2017-05-23 12:44:17.8420|Info||AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 12:44:22.4267|Info||Handle|Request for 37035_486_1_GetImages
+2017-05-23 12:44:31.7908|Info||Handle|Request for 37035_585_1_GetImages
+2017-05-23 12:44:41.5444|Info||Handle|Request for 37035_673_1_GetImages
+2017-05-23 15:28:02.2964|Info|Program|Main|Starting P2P service
+2017-05-23 15:28:02.6082|Info|RebusLog|Info|Initializing RabbitMQ connection manager for transport with input queue 'ARNVGATEWAY9KM\Admin\RegularPeer'
+2017-05-23 15:28:02.8702|Info|RebusLog|Info|Creating new RabbitMQ connection
+2017-05-23 15:28:03.5781|Info|RebusLog|Info|Starting periodic task 'CleanupTrackedErrors' with interval 00:01:00
+2017-05-23 15:28:03.8514|Info|RebusLog|Info|Starting periodic task 'DueMessagesSender' with interval 00:00:01
+2017-05-23 15:28:03.8514|Info|RebusLog|Info|Starting bus 1
+2017-05-23 15:28:03.8514|Info|RebusLog|Info|Setting number of workers to 1
+2017-05-23 15:28:03.8774|Info|RebusLog|Info|Started
+2017-05-23 15:28:04.1751|Info|RebusLog|Info|Successfully initialized consumer for ARNVGATEWAY9KM\Admin\RegularPeer
+2017-05-23 15:28:04.7351|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:04.8301|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:04.8461|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:04.8521|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:28:04.8521|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:04.8521|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:04.8871|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:04.9061|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:04.9151|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:28:04.9151|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:04.9871|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:04.9871|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:04.9871|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:28:04.9871|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:05.0071|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:05.0221|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:05.0221|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:05.0221|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:05.0361|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:05.0361|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:05.1161|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:05.1540|Info|HandleRailOCREvents|Handle|Request for 37048_46_1_GetImages
+2017-05-23 15:28:05.2300|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 1570579f-5d93-4722-bb41-b45f4f141cd5: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:28:05.8040|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:05.8360|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:05.8620|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:05.8620|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:05.9020|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:05.9290|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:05.9620|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:05.9920|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:06.0200|Info|HandleRailOCREvents|Handle|Request for 37049_44_1_GetImages
+2017-05-23 15:28:06.0200|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 6e28d3cd-494d-44da-9a13-e43cebd25238: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:28:06.4952|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:06.5072|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:06.5332|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:06.5532|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:06.6742|Info|HandleRailOCREvents|Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 15:28:06.7142|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:06.7322|Info|HandleRailOCREvents|Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 15:28:06.7612|Info|RegularPeerServiceDistributed|AddNodeEntry|	 Добавляем net.tcp://10.52.55.199:4000/P2PService в список участников сети. Размер сети = 1 .
+2017-05-23 15:28:06.7792|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:06.8162|Info|HandleRailOCREvents|Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 15:28:06.8582|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:06.8702|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:06.8812|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:06.9032|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:06.9252|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:06.9252|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:28:06.9662|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:28:06.9832|Info|HandleRailOCREvents|Handle|Request for 37051_125_1_GetImages
+2017-05-23 15:28:08.8873|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:28:09.1383|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:28:09.1383|Info|Host|Deploy|P2P Service deployed 
+2017-05-23 15:28:17.5152|Info|HandleRailOCREvents|Handle|Request for 37051_389_1_GetImages
+2017-05-23 15:28:26.3331|Info|HandleRailOCREvents|Handle|Request for 37051_667_1_GetImages
+2017-05-23 15:31:16.0253|Info|Program|Main|Starting P2P service
+2017-05-23 15:31:16.2973|Info|RebusLog|Info|Initializing RabbitMQ connection manager for transport with input queue 'ARNVGATEWAY9KM\Admin\RegularPeer'
+2017-05-23 15:31:16.5672|Info|RebusLog|Info|Creating new RabbitMQ connection
+2017-05-23 15:31:17.1713|Info|RebusLog|Info|Starting periodic task 'CleanupTrackedErrors' with interval 00:01:00
+2017-05-23 15:31:17.4158|Info|RebusLog|Info|Starting periodic task 'DueMessagesSender' with interval 00:00:01
+2017-05-23 15:31:17.4198|Info|RebusLog|Info|Starting bus 1
+2017-05-23 15:31:17.4198|Info|RebusLog|Info|Setting number of workers to 1
+2017-05-23 15:31:17.4198|Info|RebusLog|Info|Started
+2017-05-23 15:31:17.7080|Info|RebusLog|Info|Successfully initialized consumer for ARNVGATEWAY9KM\Admin\RegularPeer
+2017-05-23 15:31:18.3300|Info|HandleRailOCREvents|Handle|Request for 37048_46_1_GetImages
+2017-05-23 15:31:18.3620|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 1570579f-5d93-4722-bb41-b45f4f141cd5: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:18.4789|Info|HandleRailOCREvents|Handle|Request for 37049_44_1_GetImages
+2017-05-23 15:31:18.4959|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 6e28d3cd-494d-44da-9a13-e43cebd25238: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:18.9669|Info|HandleRailOCREvents|Handle|Request for 37051_125_1_GetImages
+2017-05-23 15:31:18.9949|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID bfa6b37a-7e1c-4f67-bfc8-7def938e7124: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:19.6218|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:19.6708|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:19.7018|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:19.7268|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:19.7618|Info|HandleRailOCREvents|Handle|TrainTypes Passenger not match ASUST requirements.
+2017-05-23 15:31:19.7918|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:19.8358|Info|HandleRailOCREvents|Handle|TrainTypes Passenger not match ASUST requirements.
+2017-05-23 15:31:19.9448|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:19.9828|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:20.0008|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:20.0288|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:20.0508|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:31:20.0888|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:20.1118|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:31:20.1448|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:20.1618|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:31:20.1918|Info|HandleRailOCREvents|Handle|TrainTypes Passenger not match ASUST requirements.
+2017-05-23 15:31:20.2218|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:20.2598|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:20.2738|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:20.2938|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:20.3188|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:20.3448|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:20.3668|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:20.3898|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:31:20.4098|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:20.4298|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:31:20.4508|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:20.4678|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:20.5228|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:20.5338|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:20.5528|Info|HandleRailOCREvents|Handle|Request for 37054_42_1_GetImages
+2017-05-23 15:31:20.5738|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 88425f96-cea9-4249-8d2c-7e890c66ed1c: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:20.9876|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:20.9986|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:31:21.0116|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:21.0116|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:21.0446|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:21.0645|Info|HandleRailOCREvents|Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 15:31:21.0785|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:21.0905|Info|HandleRailOCREvents|Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 15:31:21.1165|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:21.1365|Info|HandleRailOCREvents|Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 15:31:21.1365|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:21.1755|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:21.2005|Info|HandleRailOCREvents|Handle|Request for 37048_46_1_GetImages
+2017-05-23 15:31:21.2285|Warn|RebusLog|Warn|Unhandled exception 2 while handling message with ID 1570579f-5d93-4722-bb41-b45f4f141cd5: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:21.6025|Info|HandleRailOCREvents|Handle|Request for 37049_44_1_GetImages
+2017-05-23 15:31:21.6145|Warn|RebusLog|Warn|Unhandled exception 2 while handling message with ID 6e28d3cd-494d-44da-9a13-e43cebd25238: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:21.9389|Info|HandleRailOCREvents|Handle|Request for 37051_125_1_GetImages
+2017-05-23 15:31:21.9490|Warn|RebusLog|Warn|Unhandled exception 2 while handling message with ID bfa6b37a-7e1c-4f67-bfc8-7def938e7124: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:22.2559|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:22.2669|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:22.2869|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:22.3119|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:22.3267|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:22.3487|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:22.3657|Info|HandleRailOCREvents|Handle|Request for 37058_119_1_GetImages
+2017-05-23 15:31:22.3767|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 6b9317ae-72c9-4812-b6a0-01ea96ff8a9c: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:22.7768|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:22.7768|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:22.8126|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:22.8296|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:22.8446|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:22.8666|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:22.8792|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:22.9002|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:22.9182|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:22.9362|Info|HandleRailOCREvents|Handle|Request for 37059_48_1_GetImages
+2017-05-23 15:31:22.9512|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 1db5866f-bd27-44a3-9e52-7a4711449d2b: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:23.2722|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:23.2792|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:23.2962|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:23.3112|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:23.3322|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:23.3593|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:23.3713|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:23.4003|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:23.4113|Info|HandleRailOCREvents|Handle|Request for 37060_141_1_GetImages
+2017-05-23 15:31:23.4293|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 409118d6-c700-4dbf-9e16-71d3d4b7a97c: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:23.8065|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:23.8175|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:23.8305|Info|HandleRailOCREvents|Handle|Request for 37054_42_1_GetImages
+2017-05-23 15:31:23.8405|Warn|RebusLog|Warn|Unhandled exception 2 while handling message with ID 88425f96-cea9-4249-8d2c-7e890c66ed1c: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:31:24.0474|Info|RegularPeerServiceDistributed|AddNodeEntry|	 Добавляем net.tcp://10.52.55.199:4000/P2PService в список участников сети. Размер сети = 1 .
+2017-05-23 15:31:24.1624|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:24.1894|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:24.2104|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:24.2324|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:24.2324|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:24.2674|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:24.2794|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:24.2964|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:31:24.3174|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:31:24.3374|Info|HandleRailOCREvents|Handle|Request for 37062_43_1_GetImages
+2017-05-23 15:31:26.6690|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:31:26.8929|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:31:26.8929|Info|Host|Deploy|P2P Service deployed 
+2017-05-23 15:31:47.3061|Info|HandleRailOCREvents|Handle|Request for 37062_126_1_GetImages
+2017-05-23 15:32:09.4410|Info|HandleRailOCREvents|Handle|Request for 37062_181_1_GetImages
+2017-05-23 15:32:16.2343|Info|DataCache|CleanupExpiredData|Datacache:0 entries was removed as expired.
+2017-05-23 15:32:16.4483|Info|DataCache|CacheCleanup|Database cleanup
+2017-05-23 15:32:25.1378|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:32:36.6235|Info|HandleRailOCREvents|Handle|Request for 37062_227_1_GetImages
+2017-05-23 15:33:02.2623|Info|HandleRailOCREvents|Handle|Request for 37062_265_1_GetImages
+2017-05-23 15:33:24.7050|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:33:32.3747|Error||HasChunks|
+ex.Message:Во время операции запроса в net.tcp://10.52.55.199:4000/P2PService ответ не был получен в течение настроенного времени ожидания (00:00:30). Время, назначенное для выполнения этой операции, может быть составной частью более длинного тайм-аута.  Это может быть связано с тем, что служба продолжает обработать операцию, или с тем, что службе не удалось отправить ответное сообщение. Увеличьте значение тайм-аута операции (путем привода канал/прокси в IContextChannel и изменения свойства OperationTimeout), а также убедитесь, что служба способна подключиться к клиенту.
+ex.StackTrace:
+Server stack trace: 
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в RailOCR.Data.Common.DataTransfer.IDataTransferInner.HasChunks(DataToken dataToken)
+   в RailOCR.DataTransfer.RegularPeer.P2P.NodeEntry.HasChunks(DataToken dataToken) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:строка 38
+ex.InnerException:
+HandleReturnMessage at offset 153 in file:line:column <filename unknown>:0:0
+|0
+PrivateInvoke at offset 336 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 0 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 177 in file:line:column D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:38:17
+|38
+
+
+2017-05-23 15:33:32.5421|Info|HandleRailOCREvents|Handle|Request for 37062_308_1_GetImages
+2017-05-23 15:33:58.3641|Info|HandleRailOCREvents|Handle|Request for 37062_355_1_GetImages
+2017-05-23 15:34:26.2008|Info|HandleRailOCREvents|Handle|Request for 37062_395_1_GetImages
+2017-05-23 15:34:26.3678|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:34:56.2258|Error||HasChunks|
+ex.Message:Во время операции запроса в net.tcp://10.52.55.199:4000/P2PService ответ не был получен в течение настроенного времени ожидания (00:00:29.9989998). Время, назначенное для выполнения этой операции, может быть составной частью более длинного тайм-аута.  Это может быть связано с тем, что служба продолжает обработать операцию, или с тем, что службе не удалось отправить ответное сообщение. Увеличьте значение тайм-аута операции (путем привода канал/прокси в IContextChannel и изменения свойства OperationTimeout), а также убедитесь, что служба способна подключиться к клиенту.
+ex.StackTrace:
+Server stack trace: 
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в RailOCR.Data.Common.DataTransfer.IDataTransferInner.HasChunks(DataToken dataToken)
+   в RailOCR.DataTransfer.RegularPeer.P2P.NodeEntry.HasChunks(DataToken dataToken) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:строка 38
+ex.InnerException:
+HandleReturnMessage at offset 153 in file:line:column <filename unknown>:0:0
+|0
+PrivateInvoke at offset 336 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 0 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 177 in file:line:column D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:38:17
+|38
+
+
+2017-05-23 15:34:56.4767|Info|HandleRailOCREvents|Handle|Request for 37062_426_1_GetImages
+2017-05-23 15:35:26.0781|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:35:26.2661|Info|HandleRailOCREvents|Handle|Request for 37062_488_1_GetImages
+2017-05-23 15:35:52.4224|Info|HandleRailOCREvents|Handle|Request for 37062_530_1_GetImages
+2017-05-23 15:36:33.6180|Info|Program|Main|Starting P2P service
+2017-05-23 15:36:33.8910|Info|RebusLog|Info|Initializing RabbitMQ connection manager for transport with input queue 'ARNVGATEWAY9KM\Admin\RegularPeer'
+2017-05-23 15:36:34.1419|Info|RebusLog|Info|Creating new RabbitMQ connection
+2017-05-23 15:36:35.0371|Info|RebusLog|Info|Starting periodic task 'CleanupTrackedErrors' with interval 00:01:00
+2017-05-23 15:36:35.4372|Info|RebusLog|Info|Starting periodic task 'DueMessagesSender' with interval 00:00:01
+2017-05-23 15:36:35.4412|Info|RebusLog|Info|Starting bus 1
+2017-05-23 15:36:35.4412|Info|RebusLog|Info|Setting number of workers to 1
+2017-05-23 15:36:35.4412|Info|RebusLog|Info|Started
+2017-05-23 15:36:35.8859|Info|RebusLog|Info|Successfully initialized consumer for ARNVGATEWAY9KM\Admin\RegularPeer
+2017-05-23 15:36:36.4128|Info|HandleRailOCREvents|Handle|Request for 37048_46_1_GetImages
+2017-05-23 15:36:36.4408|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 1570579f-5d93-4722-bb41-b45f4f141cd5: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:36.5508|Info|HandleRailOCREvents|Handle|Request for 37049_44_1_GetImages
+2017-05-23 15:36:36.5678|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 6e28d3cd-494d-44da-9a13-e43cebd25238: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:37.1017|Info|HandleRailOCREvents|Handle|Request for 37051_125_1_GetImages
+2017-05-23 15:36:37.1227|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID bfa6b37a-7e1c-4f67-bfc8-7def938e7124: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:37.6147|Info|HandleRailOCREvents|Handle|Request for 37054_42_1_GetImages
+2017-05-23 15:36:37.6367|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 88425f96-cea9-4249-8d2c-7e890c66ed1c: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:38.1077|Info|HandleRailOCREvents|Handle|Request for 37058_119_1_GetImages
+2017-05-23 15:36:38.1197|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 6b9317ae-72c9-4812-b6a0-01ea96ff8a9c: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:38.4426|Info|HandleRailOCREvents|Handle|Request for 37059_48_1_GetImages
+2017-05-23 15:36:38.4426|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 1db5866f-bd27-44a3-9e52-7a4711449d2b: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:38.7636|Info|HandleRailOCREvents|Handle|Request for 37060_141_1_GetImages
+2017-05-23 15:36:38.7816|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 409118d6-c700-4dbf-9e16-71d3d4b7a97c: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:39.1018|Info|HandleRailOCREvents|Handle|Request for 37062_43_1_GetImages
+2017-05-23 15:36:39.1158|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 5b17badb-148a-490c-b955-2d2f1dd308b8: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:39.4453|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:39.4603|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:39.4773|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:36:39.4953|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:39.5243|Info|HandleRailOCREvents|Handle|Request for 37061_93_1_GetImages
+2017-05-23 15:36:39.5373|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID 6dfc03d0-d4e0-438e-bda4-d928cb8a5473: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:39.8887|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:39.9197|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:36:39.9467|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:39.9467|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:36:39.9687|Info|HandleRailOCREvents|Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 15:36:39.9887|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.0087|Info|HandleRailOCREvents|Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 15:36:40.0417|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.0497|Info|HandleRailOCREvents|Handle|TrainTypes Locomotive not match ASUST requirements.
+2017-05-23 15:36:40.0697|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.0807|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:36:40.1017|Info|HandleRailOCREvents|Handle|TrainTypes Passenger not match ASUST requirements.
+2017-05-23 15:36:40.1147|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.1147|Info|HandleRailOCREvents|Handle|TrainTypes Passenger not match ASUST requirements.
+2017-05-23 15:36:40.1487|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.1637|Info|HandleRailOCREvents|Handle|TrainTypes Passenger not match ASUST requirements.
+2017-05-23 15:36:40.1787|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:36:40.2037|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.2227|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:36:40.2227|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:36:40.2477|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.2647|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:36:40.2937|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.3047|Info|HandleRailOCREvents|Handle|Request for 37064_56_1_GetImages
+2017-05-23 15:36:40.3252|Warn|RebusLog|Warn|Unhandled exception 1 while handling message with ID d4dfa1f9-83aa-4e43-94b8-56231cb71328: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:40.6879|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.7039|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:36:40.7249|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.7249|Info|HandleRailOCREvents|Handle|TrainTypes None not match ASUST requirements.
+2017-05-23 15:36:40.7579|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:36:40.7789|Info|HandleRailOCREvents|Handle|Null train received
+2017-05-23 15:36:40.7989|Info|HandleRailOCREvents|Handle|TrainTypes Maneuver not match ASUST requirements.
+2017-05-23 15:36:40.9129|Info|HandleRailOCREvents|Handle|Request for 37048_46_1_GetImages
+2017-05-23 15:36:40.9329|Warn|RebusLog|Warn|Unhandled exception 2 while handling message with ID 1570579f-5d93-4722-bb41-b45f4f141cd5: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:41.2913|Info|HandleRailOCREvents|Handle|Request for 37049_44_1_GetImages
+2017-05-23 15:36:41.3093|Warn|RebusLog|Warn|Unhandled exception 2 while handling message with ID 6e28d3cd-494d-44da-9a13-e43cebd25238: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:41.6145|Info|HandleRailOCREvents|Handle|Request for 37051_125_1_GetImages
+2017-05-23 15:36:41.6305|Warn|RebusLog|Warn|Unhandled exception 2 while handling message with ID bfa6b37a-7e1c-4f67-bfc8-7def938e7124: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:41.9645|Info|HandleRailOCREvents|Handle|Request for 37054_42_1_GetImages
+2017-05-23 15:36:41.9735|Warn|RebusLog|Warn|Unhandled exception 2 while handling message with ID 88425f96-cea9-4249-8d2c-7e890c66ed1c: System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.RequestForFullData(DataToken dataToken, Boolean hightPriority) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\RegularPeerServiceClient.cs:строка 36
+   в RailOCR.DataTransfer.RegularPeer.RegularPeerService.RegularPeerService.HandleRailOCREvents.<Handle>d__3.MoveNext() в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\RegularPeerService\HandleRailOCREvents.cs:строка 67
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandlerInvoker`1.<Invoke>d__13.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DispatchIncomingMessageStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Events.Steps.MessageReceivedStep.<Process>d__6.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Sagas.LoadSagaDataStep.<Process>d__7.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.ActivateHandlersStep.<Process>d__3.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Encryption.DecryptMessagesIncomingStep.<Process>d__2.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Pipeline.Receive.HandleDeferredMessagesStep.<Process>d__12.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Rebus.Retry.Simple.SimpleRetryStrategyStep.<DispatchWithTrackerIdentifier>d__7.MoveNext()
+2017-05-23 15:36:42.1145|Info|RegularPeerServiceDistributed|AddNodeEntry|	 Добавляем net.tcp://10.53.161.40:4000/P2PService в список участников сети. Размер сети = 1 .
+2017-05-23 15:36:42.3055|Info|HandleRailOCREvents|Handle|Request for 37058_119_1_GetImages
+2017-05-23 15:36:42.5864|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:36:42.7608|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:36:42.7688|Info|Host|Deploy|P2P Service deployed 
+2017-05-23 15:36:49.3801|Info|HandleRailOCREvents|Handle|Request for 37058_371_1_GetImages
+2017-05-23 15:36:58.7565|Info|HandleRailOCREvents|Handle|Request for 37058_555_1_GetImages
+2017-05-23 15:37:15.0342|Info|HandleRailOCREvents|Handle|Request for 37058_826_1_GetImages
+2017-05-23 15:37:25.9663|Info|HandleRailOCREvents|Handle|Request for 37058_929_1_GetImages
+2017-05-23 15:37:33.7150|Info|DataCache|CleanupExpiredData|Datacache:0 entries was removed as expired.
+2017-05-23 15:37:33.9830|Info|DataCache|CacheCleanup|Database cleanup
+2017-05-23 15:37:37.3186|Info|HandleRailOCREvents|Handle|Request for 37058_1205_1_GetImages
+2017-05-23 15:37:42.0619|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:37:48.3484|Info|HandleRailOCREvents|Handle|Request for 37058_1310_1_GetImages
+2017-05-23 15:37:58.7629|Info|HandleRailOCREvents|Handle|Request for 37058_1584_1_GetImages
+2017-05-23 15:38:09.2938|Info|HandleRailOCREvents|Handle|Request for 37058_1675_1_GetImages
+2017-05-23 15:38:19.0007|Info|HandleRailOCREvents|Handle|Request for 37058_1949_1_GetImages
+2017-05-23 15:38:29.4027|Info|HandleRailOCREvents|Handle|Request for 37058_2134_1_GetImages
+2017-05-23 15:38:40.0069|Info|HandleRailOCREvents|Handle|Request for 37058_2234_1_GetImages
+2017-05-23 15:38:42.0506|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:38:49.8117|Info|HandleRailOCREvents|Handle|Request for 37058_2416_1_GetImages
+2017-05-23 15:38:59.9170|Info|HandleRailOCREvents|Handle|Request for 37058_2604_1_GetImages
+2017-05-23 15:39:10.8600|Info|HandleRailOCREvents|Handle|Request for 37058_2867_1_GetImages
+2017-05-23 15:39:21.2275|Info|HandleRailOCREvents|Handle|Request for 37058_3012_1_GetImages
+2017-05-23 15:39:31.9973|Info|HandleRailOCREvents|Handle|Request for 37058_3163_1_GetImages
+2017-05-23 15:39:42.0338|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:39:43.6873|Info|HandleRailOCREvents|Handle|Request for 37058_3321_1_GetImages
+2017-05-23 15:39:54.4772|Info|HandleRailOCREvents|Handle|Request for 37058_3506_1_GetImages
+2017-05-23 15:40:05.2530|Info|HandleRailOCREvents|Handle|Request for 37058_3687_1_GetImages
+2017-05-23 15:40:15.7611|Info|HandleRailOCREvents|Handle|Request for 37058_3867_1_GetImages
+2017-05-23 15:40:26.8264|Info|HandleRailOCREvents|Handle|Request for 37058_4097_1_GetImages
+2017-05-23 15:40:38.5925|Info|HandleRailOCREvents|Handle|Request for 37058_4278_1_GetImages
+2017-05-23 15:40:42.0170|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:40:49.9421|Info|HandleRailOCREvents|Handle|Request for 37058_4489_1_GetImages
+2017-05-23 15:41:01.5789|Info|HandleRailOCREvents|Handle|Request for 37058_4584_1_GetImages
+2017-05-23 15:41:12.4116|Info|HandleRailOCREvents|Handle|Request for 37058_4760_1_GetImages
+2017-05-23 15:41:22.7662|Info|HandleRailOCREvents|Handle|Request for 37058_5032_1_GetImages
+2017-05-23 15:41:34.2200|Info|HandleRailOCREvents|Handle|Request for 37058_5194_1_GetImages
+2017-05-23 15:41:42.0436|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:41:48.7617|Info|HandleRailOCREvents|Handle|Request for 37058_5380_1_GetImages
+2017-05-23 15:42:00.7628|Info|HandleRailOCREvents|Handle|Request for 37058_5560_1_GetImages
+2017-05-23 15:42:11.6386|Info|HandleRailOCREvents|Handle|Request for 37058_5728_1_GetImages
+2017-05-23 15:42:22.1879|Info|HandleRailOCREvents|Handle|Request for 37058_5822_1_GetImages
+2017-05-23 15:42:32.2911|Info|HandleRailOCREvents|Handle|Request for 37058_6080_1_GetImages
+2017-05-23 15:42:42.0371|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:42:42.8735|Info|HandleRailOCREvents|Handle|Request for 37058_6209_1_GetImages
+2017-05-23 15:42:53.9418|Info|HandleRailOCREvents|Handle|Request for 37058_6432_1_GetImages
+2017-05-23 15:43:05.4422|Info|HandleRailOCREvents|Handle|Request for 37058_6612_1_GetImages
+2017-05-23 15:43:16.3540|Info|HandleRailOCREvents|Handle|Request for 37058_6726_1_GetImages
+2017-05-23 15:43:27.8021|Info|HandleRailOCREvents|Handle|Request for 37058_6942_1_GetImages
+2017-05-23 15:43:39.0809|Info|HandleRailOCREvents|Handle|Request for 37058_7040_1_GetImages
+2017-05-23 15:43:42.0007|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:43:50.1563|Info|HandleRailOCREvents|Handle|Request for 37058_7213_1_GetImages
+2017-05-23 15:44:01.1221|Info|HandleRailOCREvents|Handle|Request for 37058_7399_1_GetImages
+2017-05-23 15:44:11.9089|Info|HandleRailOCREvents|Handle|Request for 37058_7538_1_GetImages
+2017-05-23 15:44:22.8331|Info|HandleRailOCREvents|Handle|Request for 37058_7706_1_GetImages
+2017-05-23 15:44:32.9945|Info|HandleRailOCREvents|Handle|Request for 37058_7874_1_GetImages
+2017-05-23 15:44:42.0080|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:44:43.2604|Info|HandleRailOCREvents|Handle|Request for 37058_8139_1_GetImages
+2017-05-23 15:44:52.9483|Info|HandleRailOCREvents|Handle|Request for 37058_8191_1_GetImages
+2017-05-23 15:45:02.6940|Info|HandleRailOCREvents|Handle|Request for 37058_8403_1_GetImages
+2017-05-23 15:45:13.3019|Info|HandleRailOCREvents|Handle|Request for 37059_48_1_GetImages
+2017-05-23 15:45:35.1161|Info|HandleRailOCREvents|Handle|Request for 37059_152_1_GetImages
+2017-05-23 15:45:42.0273|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:45:58.2100|Info|HandleRailOCREvents|Handle|Request for 37059_257_1_GetImages
+2017-05-23 15:46:21.8535|Info|HandleRailOCREvents|Handle|Request for 37059_344_1_GetImages
+2017-05-23 15:46:42.0145|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:46:47.6638|Info|HandleRailOCREvents|Handle|Request for 37059_408_1_GetImages
+2017-05-23 15:47:13.5792|Info|HandleRailOCREvents|Handle|Request for 37059_465_1_GetImages
+2017-05-23 15:47:39.6827|Info|HandleRailOCREvents|Handle|Request for 37059_535_1_GetImages
+2017-05-23 15:47:42.0322|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:48:03.7793|Info|HandleRailOCREvents|Handle|Request for 37059_599_1_GetImages
+2017-05-23 15:48:28.4759|Info|HandleRailOCREvents|Handle|Request for 37059_659_1_GetImages
+2017-05-23 15:48:41.9975|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:48:56.2632|Info|HandleRailOCREvents|Handle|Request for 37059_718_1_GetImages
+2017-05-23 15:49:24.3058|Info|HandleRailOCREvents|Handle|Request for 37059_779_1_GetImages
+2017-05-23 15:49:41.9833|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:49:51.1684|Info|HandleRailOCREvents|Handle|Request for 37059_835_1_GetImages
+2017-05-23 15:50:19.7515|Info|HandleRailOCREvents|Handle|Request for 37059_895_1_GetImages
+2017-05-23 15:50:41.9694|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:50:47.3732|Info|HandleRailOCREvents|Handle|Request for 37059_957_1_GetImages
+2017-05-23 15:51:14.3956|Info|HandleRailOCREvents|Handle|Request for 37059_1021_1_GetImages
+2017-05-23 15:51:40.9293|Info|HandleRailOCREvents|Handle|Request for 37059_1086_1_GetImages
+2017-05-23 15:51:41.9728|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:52:07.1804|Info|HandleRailOCREvents|Handle|Request for 37059_1148_1_GetImages
+2017-05-23 15:52:35.0400|Info|HandleRailOCREvents|Handle|Request for 37059_1219_1_GetImages
+2017-05-23 15:52:41.9904|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:53:03.4451|Info|HandleRailOCREvents|Handle|Request for 37059_1277_1_GetImages
+2017-05-23 15:53:30.5485|Info|HandleRailOCREvents|Handle|Request for 37059_1341_1_GetImages
+2017-05-23 15:53:41.9930|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:53:57.7167|Info|HandleRailOCREvents|Handle|Request for 37059_1407_1_GetImages
+2017-05-23 15:54:23.6792|Info|HandleRailOCREvents|Handle|Request for 37059_1470_1_GetImages
+2017-05-23 15:54:41.9976|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:54:50.6783|Info|HandleRailOCREvents|Handle|Request for 37059_1521_1_GetImages
+2017-05-23 15:55:16.1637|Info|HandleRailOCREvents|Handle|Request for 37059_1595_1_GetImages
+2017-05-23 15:55:41.9993|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:55:43.1331|Info|HandleRailOCREvents|Handle|Request for 37059_1660_1_GetImages
+2017-05-23 15:56:10.8309|Info|HandleRailOCREvents|Handle|Request for 37059_1729_1_GetImages
+2017-05-23 15:56:39.7311|Info|HandleRailOCREvents|Handle|Request for 37059_1787_1_GetImages
+2017-05-23 15:56:41.9726|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:57:05.9332|Info|HandleRailOCREvents|Handle|Request for 37059_1846_1_GetImages
+2017-05-23 15:57:32.1945|Info|HandleRailOCREvents|Handle|Request for 37059_1905_1_GetImages
+2017-05-23 15:57:41.9596|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:57:58.8937|Info|HandleRailOCREvents|Handle|Request for 37059_1965_1_GetImages
+2017-05-23 15:58:25.7034|Info|HandleRailOCREvents|Handle|Request for 37059_2027_1_GetImages
+2017-05-23 15:58:42.4189|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:58:54.0089|Info|HandleRailOCREvents|Handle|Request for 37059_2131_1_GetImages
+2017-05-23 15:59:20.1115|Info|HandleRailOCREvents|Handle|Request for 37059_2169_1_GetImages
+2017-05-23 15:59:41.9395|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 15:59:47.3891|Info|HandleRailOCREvents|Handle|Request for 37059_2231_1_GetImages
+2017-05-23 16:00:13.2385|Info|HandleRailOCREvents|Handle|Request for 37059_2304_1_GetImages
+2017-05-23 16:00:38.6406|Info|HandleRailOCREvents|Handle|Request for 37059_2353_1_GetImages
+2017-05-23 16:00:41.9331|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:01:04.3956|Info|HandleRailOCREvents|Handle|Request for 37059_2417_1_GetImages
+2017-05-23 16:01:29.8818|Info|HandleRailOCREvents|Handle|Request for 37059_2465_1_GetImages
+2017-05-23 16:01:41.9306|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:01:56.9513|Info|HandleRailOCREvents|Handle|Request for 37059_2551_1_GetImages
+2017-05-23 16:02:21.8552|Info|HandleRailOCREvents|Handle|Request for 37059_2675_1_GetImages
+2017-05-23 16:02:41.9580|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:02:45.3424|Info|HandleRailOCREvents|Handle|Request for 37059_2739_1_GetImages
+2017-05-23 16:03:13.2099|Info|HandleRailOCREvents|Handle|Request for 37059_2865_1_GetImages
+2017-05-23 16:03:38.9520|Info|HandleRailOCREvents|Handle|Request for 37059_2896_1_GetImages
+2017-05-23 16:03:41.9222|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:04:03.9362|Info|HandleRailOCREvents|Handle|Request for 37059_2985_1_GetImages
+2017-05-23 16:04:28.2014|Info|HandleRailOCREvents|Handle|Request for 37059_3099_1_GetImages
+2017-05-23 16:04:41.9063|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:04:53.5815|Info|HandleRailOCREvents|Handle|Request for 37059_3161_1_GetImages
+2017-05-23 16:05:19.5284|Info|HandleRailOCREvents|Handle|Request for 37059_3230_1_GetImages
+2017-05-23 16:05:41.9211|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:05:44.4896|Info|HandleRailOCREvents|Handle|Request for 37059_3310_1_GetImages
+2017-05-23 16:06:10.9678|Info|HandleRailOCREvents|Handle|Request for 37059_3360_1_GetImages
+2017-05-23 16:06:38.5057|Info|HandleRailOCREvents|Handle|Request for 37059_3414_1_GetImages
+2017-05-23 16:06:41.9078|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:07:03.3206|Info|HandleRailOCREvents|Handle|Request for 37059_3488_1_GetImages
+2017-05-23 16:07:30.2853|Info|HandleRailOCREvents|Handle|Request for 37059_3613_1_GetImages
+2017-05-23 16:07:41.9007|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:07:58.0226|Info|HandleRailOCREvents|Handle|Request for 37059_3635_1_GetImages
+2017-05-23 16:08:23.4038|Info|HandleRailOCREvents|Handle|Request for 37059_3708_1_GetImages
+2017-05-23 16:08:41.8811|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:08:50.3023|Info|HandleRailOCREvents|Handle|Request for 37059_3837_1_GetImages
+2017-05-23 16:09:17.8001|Info|HandleRailOCREvents|Handle|Request for 37059_3926_1_GetImages
+2017-05-23 16:09:41.8990|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:09:45.4001|Info|HandleRailOCREvents|Handle|Request for 37059_3946_1_GetImages
+2017-05-23 16:10:12.2782|Info|HandleRailOCREvents|Handle|Request for 37059_4022_1_GetImages
+2017-05-23 16:10:37.8015|Info|HandleRailOCREvents|Handle|Request for 37059_4133_1_GetImages
+2017-05-23 16:10:41.8987|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:11:06.7173|Info|HandleRailOCREvents|Handle|Request for 37059_4170_1_GetImages
+2017-05-23 16:11:36.8225|Error||HasChunks|
+ex.Message:Во время операции запроса в net.tcp://10.53.161.40:4000/P2PService ответ не был получен в течение настроенного времени ожидания (00:00:29.9989985). Время, назначенное для выполнения этой операции, может быть составной частью более длинного тайм-аута.  Это может быть связано с тем, что служба продолжает обработать операцию, или с тем, что службе не удалось отправить ответное сообщение. Увеличьте значение тайм-аута операции (путем привода канал/прокси в IContextChannel и изменения свойства OperationTimeout), а также убедитесь, что служба способна подключиться к клиенту.
+ex.StackTrace:
+Server stack trace: 
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   в System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   в System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   в System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   в System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   в System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   в RailOCR.Data.Common.DataTransfer.IDataTransferInner.HasChunks(DataToken dataToken)
+   в RailOCR.DataTransfer.RegularPeer.P2P.NodeEntry.HasChunks(DataToken dataToken) в D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:строка 38
+ex.InnerException:
+HandleReturnMessage at offset 153 in file:line:column <filename unknown>:0:0
+|0
+PrivateInvoke at offset 336 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 0 in file:line:column <filename unknown>:0:0
+|0
+HasChunks at offset 177 in file:line:column D:\projects\Gitlab-repo\CommonLegacy\CvLab.RailOCR\RailOCR.DataTransfer.RegularPeer\P2P\NodeEntry.cs:38:17
+|38
+
+
+2017-05-23 16:11:37.0545|Info|HandleRailOCREvents|Handle|Request for 37059_4262_1_GetImages
+2017-05-23 16:12:06.0663|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:12:06.1713|Info|HandleRailOCREvents|Handle|Request for 37059_4333_1_GetImages
+2017-05-23 16:12:31.3635|Info|HandleRailOCREvents|Handle|Request for 37059_4397_1_GetImages
+2017-05-23 16:12:41.8740|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:12:57.7142|Info|HandleRailOCREvents|Handle|Request for 37060_141_1_GetImages
+2017-05-23 16:13:08.0584|Info|HandleRailOCREvents|Handle|Request for 37060_440_1_GetImages
+2017-05-23 16:13:15.9122|Info|HandleRailOCREvents|Handle|Request for 37060_756_1_GetImages
+2017-05-23 16:13:24.5907|Info|HandleRailOCREvents|Handle|Request for 37060_1071_1_GetImages
+2017-05-23 16:13:32.4971|Info|HandleRailOCREvents|Handle|Request for 37060_1296_1_GetImages
+2017-05-23 16:13:41.8693|Info|RegularPeerServiceDistributed|AddNodeEntry|Нода net.tcp://localhost:8080/P2PService уже в списке
+2017-05-23 16:13:41.9943|Info|HandleRailOCREvents|Handle|Request for 37060_1484_1_GetImages
+2017-05-23 16:13:50.0101|Info|HandleRailOCREvents|Handle|Request for 37060_1704_1_GetImages
+2017-05-23 16:13:58.8587|Info|HandleRailOCREvents|Handle|Request for 37060_2008_1_GetImages
+2017-05-23 16:14:09.1500|Info|HandleRailOCREvents|Handle|Request for 37060_2139_1_GetImages
+2017-05-23 16:14:17.5906|Info|HandleRailOCREvents|Handle|Request for 37060_2369_1_GetImages
+2017-05-23 16:14:26.3462|Info|HandleRailOCREvents|Handle|Request for 37060_2549_1_GetImages
